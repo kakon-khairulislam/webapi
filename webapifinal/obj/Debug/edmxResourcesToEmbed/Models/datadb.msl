@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="practice_webapiModelStoreContainer" CdmEntityContainer="practice_webapiEntities2">
+    <EntitySetMapping Name="datawebts">
+      <EntityTypeMapping TypeName="practice_webapiModel.datawebt">
+        <MappingFragment StoreEntitySet="datawebt">
+          <ScalarProperty Name="st_ID" ColumnName="st_ID" />
+          <ScalarProperty Name="st_name" ColumnName="st_name" />
+          <ScalarProperty Name="t_id" ColumnName="t_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
